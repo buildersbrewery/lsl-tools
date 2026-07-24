@@ -1,0 +1,8 @@
+Builders Brewery LSL package installed.
+
+This is a clean restart of the old sublime-lsl package (archived 2020).
+
+Next steps for you:
+1. Open any .lsl file to activate syntax highlighting.
+2. Completions and tooltips will improve further once the definition generator has been completed and run against the official Linden Lab data.
+3. See the main repository README and docs/ folder for setup help and example scripts.

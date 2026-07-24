@@ -1,0 +1,13 @@
+{
+    "*": {
+        "*": [
+            "mdpopups",
+            "python-markdown",
+            "pygments",
+            "python-jinja2",
+            "markupsafe",
+            "pymdownx",
+            "pyyaml"
+        ]
+    }
+}

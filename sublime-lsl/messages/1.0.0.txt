@@ -1,0 +1,8 @@
+Builders Brewery LSL 1.0.0 — Clean restart
+
+- New package structure under the Builders Brewery nonprofit mission
+- Example scripts for beginner, intermediate, and advanced scripters
+- Skeleton generator for staying in sync with official Linden Lab definitions
+- Documentation for external editor setup and beginner workflow
+
+The previous 2015–2020 packages have been archived.

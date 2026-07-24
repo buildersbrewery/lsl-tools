@@ -1,0 +1,11 @@
+{
+    // Default settings for LSL files under the Builders Brewery package
+    "extensions": ["lsl"],
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "detect_indentation": false,
+    "word_wrap": false,
+    "rulers": [100],
+    "auto_complete": true,
+    "auto_complete_commit_on_tab": true
+}

@@ -1,0 +1,65 @@
+%YAML 1.2
+---
+# Builders Brewery — LSL syntax definition (starter)
+# This is a functional starting point. It should be expanded and kept
+# in sync with the generated keyword data once the official definitions
+# generator is run regularly.
+name: LSL (Builders Brewery)
+file_extensions: [lsl]
+scope: source.lsl
+
+contexts:
+  main:
+    - include: comments
+    - include: strings
+    - include: numbers
+    - include: keywords
+    - include: storage-types
+    - include: support-functions
+    - match: \b([a-zA-Z_][a-zA-Z0-9_]*)\b
+      scope: variable.other.lsl
+
+  comments:
+    - match: //.*
+      scope: comment.line.double-slash.lsl
+    - match: /\*
+      scope: comment.block.lsl
+      push:
+        - meta_scope: comment.block.lsl
+        - match: \*/
+          pop: true
+
+  strings:
+    - match: '"'
+      scope: punctuation.definition.string.begin.lsl
+      push:
+        - meta_scope: string.quoted.double.lsl
+        - match: '\\.'
+          scope: constant.character.escape.lsl
+        - match: '"'
+          scope: punctuation.definition.string.end.lsl
+          pop: true
+
+  numbers:
+    - match: \b0[xX][0-9a-fA-F]+\b
+      scope: constant.numeric.hex.lsl
+    - match: \b\d+\.\d*([eE][-+]?\d+)?\b
+      scope: constant.numeric.float.lsl
+    - match: \b\d+\b
+      scope: constant.numeric.integer.lsl
+
+  keywords:
+    - match: \b(if|else|for|while|do|return|jump|state|default)\b
+      scope: keyword.control.lsl
+    - match: \b(TRUE|FALSE)\b
+      scope: constant.language.boolean.lsl
+
+  storage-types:
+    - match: \b(integer|float|string|key|list|vector|rotation)\b
+      scope: storage.type.lsl
+
+  support-functions:
+    # Core / very common functions — expanded list should come from
+    # the generated keyword data in a future iteration
+    - match: \b(llSay|llOwnerSay|llWhisper|llShout|llListen|llSensor|llSensorRepeat|llSetTimerEvent|llResetScript|llGetOwner|llDetectedKey|llDetectedName|llHTTPRequest|llMessageLinked|llSetText|llGetKey)\b
+      scope: support.function.builtin.lsl
