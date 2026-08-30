@@ -37,11 +37,24 @@ That's the language, not the feast. Bring scripts, not pineapples.
 - `PHRASEBOOK_LSL_TO_SLUA.md` — "I used to write it this way in LSL..."
 - `SANDBOX_CHALLENGES.md` — little missions for the BB Sandbox
 
+## If a script complains
+
+SLua is still growing. Official event shapes have changed more than once.
+
+If a practice script will not save:
+
+1. Trust the current official docs and your BB class notes first.
+2. Tell staff which file broke and what the viewer said.
+3. We will fix the public copy. That is the point of a living bench.
+
+Common pattern we use here: `LLEvents:on("touch_start", function(detected) ... end)` and `detected[1]:getName()`.
+Your class may show a slightly different spelling. Both can be valid depending on the week.
+
 ## Reminders
 
 - Teacher class materials stay theirs. We do not copy those.
 - Topics are open. Many teachers can teach the same topic in different ways.
-- SLua is still evolving. If something fails, check official docs and class notes.
+- Official Linden docs win if we disagree.
 
 Classes -> Sandbox practice -> Study group / Discord -> Back to class.
 
