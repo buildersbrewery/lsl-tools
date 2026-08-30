@@ -1,80 +1,66 @@
 # Builders Brewery LSL Tools
 
-**Free, modern tools and teaching resources for Linden Scripting Language (LSL)**  
-Created and maintained by **Builders Brewery** — a not-for-profit that has trained content creators in Second Life since 2008.
+Free scripting tools for Second Life.  
+Built by **Builders Brewery** — a not-for-profit that has been helping creators learn, mess up safely, and try again since 2008.
 
-This is a complete restart of our earlier (2015–2020) tooling. The old repositories have been archived.
+This is a restart of our old GitHub work. The earlier repos are archived, with thanks to the people who built them.
 
----
-
-## Who This Is For
-
-| Skill Level | What you get |
-|-------------|--------------|
-| **Beginner** | Clear, heavily commented example scripts you can copy and learn from immediately |
-| **Intermediate** | Practical patterns for dialogs, HTTP, link messages, notecards, and more |
-| **Advanced** | Starting points for Linkset Data, pathfinding, combat systems, JSON handling, and modern APIs |
-| **Teachers & Mentors** | Ready-made examples and a maintenance model that does not require constant expert attention |
+Come sit at the bench. Bring a script. Pineapples optional.
 
 ---
 
-## What’s Inside
+## Start here
 
-- **Leveled example scripts** — Beginner → Intermediate → Advanced, each focused on one clear concept
-- **Sublime Text package skeleton** — Syntax highlighting and settings ready for current LSL
-- **Automatic definition updater** — One command pulls the latest official language data from Linden Lab
-- **Documentation** — External editor setup, beginner workflow, and a maintenance guide written for limited technical staff
-- **Future-proof design** — Built so the project can stay useful for years with only occasional light upkeep
+| If you want to... | Go here |
+|---|---|
+| Learn LSL by poking at small examples | [`examples/beginner/`](examples/beginner/) |
+| Practice SLua between classes | [`examples/slua/`](examples/slua/) |
+| Copy a tiny everyday recipe (door, etc.) | [`tools/recipes/`](tools/recipes/) |
+| Understand how this sits next to live classes | [`docs/COMPLEMENTARY_TO_CLASSES.md`](docs/COMPLEMENTARY_TO_CLASSES.md) |
+| Just get oriented | [`docs/QUICK_START.md`](docs/QUICK_START.md) |
 
----
+Best classroom: the **Builders Brewery Sandbox** (SLua-enabled).  
+Best follow-up: class, study group, or Discord — not staring at an error alone.
 
-## Why This Matters
-
-Second Life’s scripting language continues to evolve (Linkset Data, Combat 2.0, PBR materials, Experiences, pathfinding, and more). Many older editor tools stopped receiving updates years ago.  
-
-Builders Brewery’s goal is simple: give creators of every level reliable, current, and friendly resources so they can keep learning and building.
-
----
-
-## Quick Start
-
-**Want to learn by example?**  
-Open the `examples/` folder and start with the Beginner scripts. Each file tells you exactly what it teaches.
-
-**Using Sublime Text?**  
-See the `sublime-lsl/` folder and the documentation for setup notes.
-
-**Want to keep the language data current?**  
-See `MAINTENANCE.md` — the update process is designed to be as simple as possible.
+SLua is based on **Luau**. That's the language, not the feast.
 
 ---
 
-## Project Principles
+## Who this is for
 
-1. Official Linden Lab definitions are the single source of truth for language data.
-2. Example scripts are teaching tools first — clarity beats cleverness.
-3. Everything is built so people with limited technical time can still maintain it.
-4. We stay honest: this is a community not-for-profit resource, not an official Linden Lab product.
+- Beginners who want one clear idea per script
+- Intermediate folks wiring dialogs, listeners, Linkset Data, HTTP
+- Advanced tinkerers who need a starting point, not a novel
+- Teachers who want a public practice bench that does **not** steal their class packets
+- Curious people who are not in a class right now and still want to learn
 
 ---
 
-## Contributing & Maintenance
+## What's inside
 
-- Read `CONTRIBUTING.md` and `MAINTENANCE.md`
-- See `ROADMAP.md` for where the project is headed
-- Missing a function or constant? Open an issue using the provided template
+- Leveled **LSL** examples (beginner → advanced)
+- **SLua Practice Toolbox** — tiny `.luau` scripts, a phrasebook, sandbox challenges
+- Everyday **recipe cards**
+- A Sublime Text package skeleton + a generator that pulls official Linden Lab language data
+- Docs written so limited-staff volunteers can keep this alive
+
+---
+
+## House rules
+
+1. Official Linden Lab docs win if something here disagrees.
+2. Clarity beats cleverness.
+3. Teacher-owned class materials stay with the teachers. Topics are open.
+4. This is a community workbench, not an official Linden Lab product.
 
 ---
 
 ## License
 
-ISC License. Example scripts are intended to be freely reused in both free and commercial creations.
+ISC License. Example scripts are meant to be reused in free and commercial work.
 
 Second Life® and Linden Scripting Language are trademarks of Linden Research, Inc.  
 Builders Brewery is not affiliated with or sponsored by Linden Research, Inc.
 
----
-
-**Builders Brewery**  
-Training content creators in Second Life since 2008  
+**Builders Brewery** · Training content creators since 2008  
 https://www.buildersbrewery.com

@@ -1,42 +1,28 @@
 # Documentation
 
-## Core Guides
+## Start here
 
+- [Quick Start](QUICK_START.md)
+- [For Teachers and Students](FOR_TEACHERS_AND_STUDENTS.md)
+- [Complementary to Classes](COMPLEMENTARY_TO_CLASSES.md)
+- [GitHub for SL Creators](GITHUB_FOR_SL_CREATORS.md)
 
+## Learning priorities
 
-* [Quick Start](QUICK_START.md) — Fast orientation for new visitors
-* [For Teachers and Students](FOR_TEACHERS_AND_STUDENTS.md) — How to use this repo alongside the BB live classes
-* [Complementary to Classes](COMPLEMENTARY_TO_CLASSES.md) — Standing rule that protects instructor materials
-* [Priority Topics](PRIORITY_TOPICS.md) — What to learn first (community need + future of Second Life)
-* [Beginner Workflow](beginner-workflow.md)
-* [External Editor Setup](external-editor-setup.md)
-* [Keeping Definitions Current](keeping-current.md)
-* [Maintenance Guide](../MAINTENANCE.md) — Written for limited technical staff
+- [Priority Topics](PRIORITY_TOPICS.md)
+- [Beginner Workflow](beginner-workflow.md)
+- [External Editor Setup](external-editor-setup.md)
 
+## Keeping it alive
 
-
-
-## Future \& Platform Preparation
-
-
-
-* [AI Preparation](AI_PREPARATION.md) — Staying effective as AI tools become common
-
-
-
+- [Keeping Definitions Current](keeping-current.md)
+- [Maintenance Guide](../MAINTENANCE.md)
+- [AI Preparation](AI_PREPARATION.md)
 
 ## Philosophy
 
-These tools exist to reduce friction in maintenance and to last.
+These tools exist to make practice easier and to last.
 
-They are designed to **add value** to the live teaching at Builders Brewery, never to replace the instructors or their materials.
+They add value to live teaching at Builders Brewery. They do not replace instructors or their materials.
 
-A new scripter should be able to:
-
-1. Open an example and understand it
-2. Practice between classes
-3. Progress from beginner to advanced patterns
-4. Trust that language data stays aligned with official Linden Lab definitions
-
-
-
+A new scripter should be able to open an example, understand it, try it in the sandbox, and come back to class with a real question.

@@ -1,8 +1,8 @@
 # Example Scripts
 
-These examples are organized by skill level. Every script is self-contained and heavily commented so it can be used for self-study or as quick practice.
+Small, focused scripts. Copy one. Rez it. Change one line. Ask questions.
 
-**Important:** These materials are complementary to Builders Brewery live classes. They do not replace the instructors’ teaching or their prepared class materials. See `docs/COMPLEMENTARY_TO_CLASSES.md`.
+These materials sit **beside** Builders Brewery live classes. They do not replace instructors or their prepared materials. See `docs/COMPLEMENTARY_TO_CLASSES.md`.
 
 ## Beginner
 
@@ -42,16 +42,18 @@ These examples are organized by skill level. Every script is self-contained and 
 - `07_experience_key_basic.lsl` — Basic experience permissions pattern
 - `08_simple_particles.lsl` — Minimal particle system on/off pattern
 
-## SLua (complementary patterns only)
+## SLua practice
 
-See the `slua/` folder.
+See the [`slua/`](slua/) folder.
 
-These are general awareness and practice notes only.  
-They are **not** a substitute for the structured SLua classes taught at Builders Brewery.
+Twelve tiny practice scripts, a phrasebook, and sandbox challenges.  
+Rez them in the **Builders Brewery Sandbox**. Then bring the weird bits back to class.
+
+Not a substitute for the SLua series taught at Builders Brewery.
 
 ## Contributing new examples
 
-1. Keep the example focused on one clear concept.
-2. Write clear comments that explain what the reader will learn.
-3. Respect the complementary rule — do not reproduce live class curricula or instructor materials.
-4. Prefer clarity over cleverness.
+1. One clear concept per file.
+2. Say what the reader will learn.
+3. Do not reproduce live class packets.
+4. Clarity beats cleverness.
