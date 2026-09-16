@@ -2,7 +2,7 @@
 
 This roadmap prioritizes **low maintenance** and **high teaching value**.
 
-## Phase 1 — Foundation (Current)
+## Phase 1 — Foundation
 - [x] Clean project structure
 - [x] Leveled example scripts (beginner → advanced)
 - [x] Official-definition generator
@@ -10,27 +10,30 @@ This roadmap prioritizes **low maintenance** and **high teaching value**.
 - [x] Documentation for external editors and beginners
 - [x] Maintenance guide designed for limited staff
 - [x] Basic CI validation
+- [x] Public repo live under buildersbrewery/lsl-tools
+- [x] Old editor packs archived
 
-## Phase 2 — First Public Release (Next human actions)
+## Phase 2 — First public release
+- [x] Publish the repository
+- [x] Archive old 2020-era repositories
 - [ ] Run generator against current official `lsl_definitions.yaml`
-- [ ] Publish new repository under buildersbrewery
-- [ ] Archive old 2020-era repositories
-- [ ] Update website / Discord / in-world links
-- [ ] Short announcement for the media blitz
+- [ ] Sweep website / Discord / in-world links
+- [ ] Short announcement when the generator output is committed
 
-## Phase 3 — Strengthening (After first release)
+## Phase 3 — Strengthening
+- [x] SLua pocket map and LSL/SLua side-by-side card
+- [x] Extra SLua practice scripts for vectors and config tables
 - [ ] Generate real Sublime completions + tooltips from the YAML
-- [ ] Add 4–6 more advanced examples (pathfinding, PBR/GLTF, robust experiences, multi-script patterns)
-- [ ] Optional: simple “What’s new in LSL” page generated from definition dates
+- [ ] Optional: simple "What is new in LSL / SLua" page generated from definition dates
 - [ ] Community call for example-script contributions
 
-## Phase 4 — Long-term Resilience
+## Phase 4 — Long-term resilience
 - [ ] Scheduled check for newer official definitions (GitHub Action)
-- [ ] Clear “Adopt-a-section” model so volunteers can own examples or docs
-- [ ] Consider light VS Code support using the same generated data
-- [ ] Annual review of whether the project still meets the not-for-profit teaching mission
+- [ ] Clear Adopt-a-section model so volunteers can own examples or docs
+- [ ] Point learners at Linden's official VS Code plugin plus our examples
+- [ ] Annual review of whether the project still meets the teaching mission
 
-## Guiding Questions for Any Future Change
+## Guiding questions for any future change
 
 1. Does this reduce or increase the work required from limited staff?
 2. Does this help a complete beginner or only advanced users?
