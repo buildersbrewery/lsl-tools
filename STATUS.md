@@ -1,5 +1,5 @@
 # Status of the Builders Brewery LSL Tools
-**Date:** 15 September 2026
+**Date:** 15 September 2026 (evening pass)
 
 ## Goal
 
@@ -22,11 +22,11 @@ Older editor packs (`linden-scripting-language`, `sublime-lsl`) are archived. Th
 |------|--------|
 | Project vision and docs | Live |
 | Leveled LSL examples | Live (beginner / intermediate / advanced) |
-| SLua practice toolbox | Live, expanded 15 Sep 2026 |
-| Pocket map and side-by-side card | Live |
+| SLua practice toolbox | Live |
+| Pocket map, gotchas card, compiler/memory card | Live |
 | Definition generator | Present. Still needs a fresh run against current official YAML. |
 | Sublime package skeleton | Present. Completions and tooltips not fully wired. |
-| Open issues / PRs on this repo | None |
+| Open pull requests on this repo | None |
 
 ## Still worth doing (low staff time)
 
@@ -34,6 +34,7 @@ Older editor packs (`linden-scripting-language`, `sublime-lsl`) are archived. Th
 2. Keep the SLua practice files honest when official event spellings change.
 3. Point website, Discord, and in-world notecards at this repo if any old GitHub links remain.
 4. Optional later: completions from generated YAML, a light VS Code path using Linden's official plugin plus our examples.
+5. If @lmiphay wants the Emacs file living, accept it here instead of un-archiving the old pack.
 
 ## Design decisions (still locked)
 

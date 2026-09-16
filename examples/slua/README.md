@@ -11,10 +11,11 @@ That's the language, not the feast. Bring scripts, not pineapples.
 ## How we use this toolbox
 
 1. Skim the [Pocket Map](../../docs/SLUA_POCKET_MAP.md) if the compiler dropdown still looks like four flavors of confusion.
-2. Rez a script in the **Builders Brewery Sandbox** (SLua-enabled).
-3. Play with it. Break it. Change one thing and see what happens.
-4. Bring questions to class, study group, Discord, or group chat.
-5. Repeat. That is how it becomes easy.
+2. Keep [Gotchas](../../docs/SLUA_GOTCHAS.md) nearby for the first save that sulks.
+3. Rez a script in the **Builders Brewery Sandbox** (SLua-enabled).
+4. Play with it. Break it. Change one thing and see what happens.
+5. Bring questions to class, study group, Discord, or group chat.
+6. Repeat. That is how it becomes easy.
 
 ## Practice scripts
 
@@ -34,6 +35,8 @@ That's the language, not the feast. Bring scripts, not pineapples.
 | `12_two_timers.luau` | More than one timer at once |
 | `13_vector_nudge.luau` | `vector()` instead of angle brackets |
 | `14_config_table.luau` | One table as the settings card |
+| `15_hovertext_last_said.luau` | Listen + hover text |
+| `16_lsd_json_note.luau` | Config table stored in Linkset Data |
 
 ## Phrasebook and challenges
 
@@ -41,6 +44,8 @@ That's the language, not the feast. Bring scripts, not pineapples.
 - `PHRASEBOOK_LSL_TO_SLUA.md` — "I used to write it this way in LSL..."
 - `SANDBOX_CHALLENGES.md` — little missions for the BB Sandbox
 - `../../docs/SLUA_POCKET_MAP.md` — charts for the compiler buttons, types, and practice path
+- `../../docs/SLUA_GOTCHAS.md` — decoder for the usual save errors
+- `../../docs/COMPILER_AND_MEMORY_CARD.md` — which button, and why memory feels different
 
 ## If a script complains
 

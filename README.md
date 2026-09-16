@@ -16,6 +16,8 @@ Come sit at the bench. Bring a script. Pineapples optional.
 | Learn LSL by poking at small examples | [`examples/beginner/`](examples/beginner/) |
 | Practice SLua between classes | [`examples/slua/`](examples/slua/) |
 | See LSL and SLua on one page | [`examples/slua/LSL_SLUA_SIDE_BY_SIDE.md`](examples/slua/LSL_SLUA_SIDE_BY_SIDE.md) |
+| Decode a cranky viewer error | [`docs/SLUA_GOTCHAS.md`](docs/SLUA_GOTCHAS.md) |
+| Pick a compiler button / think about memory | [`docs/COMPILER_AND_MEMORY_CARD.md`](docs/COMPILER_AND_MEMORY_CARD.md) |
 | Get the picture with charts | [`docs/SLUA_POCKET_MAP.md`](docs/SLUA_POCKET_MAP.md) |
 | Copy a tiny everyday recipe (door, etc.) | [`tools/recipes/`](tools/recipes/) |
 | Understand how this sits next to live classes | [`docs/COMPLEMENTARY_TO_CLASSES.md`](docs/COMPLEMENTARY_TO_CLASSES.md) |
@@ -43,7 +45,8 @@ SLua is based on **Luau**. That's the language, not the feast.
 
 - Leveled **LSL** examples (beginner → advanced)
 - **SLua Practice Toolbox** — tiny `.luau` scripts, a phrasebook, side-by-side card, sandbox challenges
-- Everyday **recipe cards**
+- Everyday **recipe cards** (LSL and a SLua door twin)
+- Gotchas card and compiler/memory chart
 - A Sublime Text package skeleton + a generator that pulls official Linden Lab language data
 - Docs written so limited-staff volunteers can keep this alive
 

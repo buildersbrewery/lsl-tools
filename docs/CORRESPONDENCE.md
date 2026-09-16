@@ -1,14 +1,16 @@
 # Correspondence log
 
-Last audit: 15 September 2026
+Last audit: 15 September 2026 (evening pass)
 
 This is the public workbench. Old editor packs are archived and read-only.
 
 ## Inbox and notifications
 
-The GitHub notification API is not available on this account connection (needs a reconnect with notification permission). Gmail was checked for GitHub mail from the last 90 days. None found.
+The GitHub notification API is still not available on this account connection (needs a reconnect with notification permission). Gmail was checked again for GitHub mail from the last year. None found.
 
-What *does* exist is leftover conversation on the archived repos. Those threads cannot be replied to or closed while the repos stay archived. That is the right tradeoff. Archiving stops people from installing dead packages and hoping they still grow.
+What *does* exist is leftover conversation on the archived repos. A reply was attempted on PR 54 during this pass. GitHub refused it: archived repos are read-only. That is still the right tradeoff. Archiving stops people from installing dead packages and hoping they still grow.
+
+A welcome issue was opened on *this* repo so the Emacs work from PR 54 has a living door.
 
 ## Archived repos
 
@@ -32,8 +34,7 @@ This package repo is archived. Current starter files live in https://github.com/
 
 ## Active repo health (this one)
 
-- Open issues: 0
-- Open pull requests: 0
-- Last content push before this audit: 30 August 2026
-
-Docs that were still talking like the repo had not been published yet (`STATUS.md`, `NEXT_STEPS_FOR_PUBLISHING.md`) were rewritten in this audit so a volunteer is not sent on a scavenger hunt.
+- Open issues: see the Emacs welcome issue if it is still open
+- Open pull requests: 0 at last check
+- Generator against current official YAML: still a Phase 2 leftover
+- Official upstream still publishes both `lsl_definitions.yaml` and `slua_definitions.yaml`

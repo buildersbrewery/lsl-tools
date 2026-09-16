@@ -5,6 +5,21 @@ All notable improvements to the Builders Brewery LSL Tools repository are record
 This project is a clean restart of earlier (2015–2020) tooling.
 It is designed to complement live classes at Builders Brewery, never to replace instructor materials.
 
+## [2026-09-15 evening] Learner cards and correspondence pass
+
+### Added
+- `docs/SLUA_GOTCHAS.md` — viewer-error decoder and LSL-habit traps
+- `docs/COMPILER_AND_MEMORY_CARD.md` — the four compiler buttons and a soft memory chart
+- `examples/slua/15_hovertext_last_said.luau`
+- `examples/slua/16_lsd_json_note.luau`
+- `tools/recipes/door_toggle.luau` — SLua twin of the LSL door recipe
+
+### Checked
+- GitHub notification inbox still blocked without extra permission
+- No GitHub mail in the connected Gmail account
+- Archived-repo leftovers unchanged and still read-only (PR 54 comment refused)
+- Official `secondlife/lsl-definitions` still ships both LSL and SLua YAML
+
 ## [2026-09-15] Audit and SLua learning pass
 
 ### Added

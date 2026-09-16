@@ -7,6 +7,8 @@
 - [Complementary to Classes](COMPLEMENTARY_TO_CLASSES.md)
 - [GitHub for SL Creators](GITHUB_FOR_SL_CREATORS.md)
 - [SLua Pocket Map](SLUA_POCKET_MAP.md)
+- [SLua Gotchas Card](SLUA_GOTCHAS.md)
+- [Compiler and Memory Card](COMPILER_AND_MEMORY_CARD.md)
 
 ## Learning priorities
 
