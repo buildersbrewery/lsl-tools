@@ -1,6 +1,6 @@
 # Builders Brewery LSL Tools
 
-Free scripting tools for Second Life.  
+Free scripting tools for Second Life.
 Built by **Builders Brewery** — a not-for-profit that has been helping creators learn, mess up safely, and try again since 2008.
 
 This is a restart of our old GitHub work. The earlier repos are archived, with thanks to the people who built them.
@@ -15,11 +15,14 @@ Come sit at the bench. Bring a script. Pineapples optional.
 |---|---|
 | Learn LSL by poking at small examples | [`examples/beginner/`](examples/beginner/) |
 | Practice SLua between classes | [`examples/slua/`](examples/slua/) |
+| See LSL and SLua on one page | [`examples/slua/LSL_SLUA_SIDE_BY_SIDE.md`](examples/slua/LSL_SLUA_SIDE_BY_SIDE.md) |
+| Get the picture with charts | [`docs/SLUA_POCKET_MAP.md`](docs/SLUA_POCKET_MAP.md) |
 | Copy a tiny everyday recipe (door, etc.) | [`tools/recipes/`](tools/recipes/) |
 | Understand how this sits next to live classes | [`docs/COMPLEMENTARY_TO_CLASSES.md`](docs/COMPLEMENTARY_TO_CLASSES.md) |
 | Just get oriented | [`docs/QUICK_START.md`](docs/QUICK_START.md) |
+| See leftover mail on the old repos | [`docs/CORRESPONDENCE.md`](docs/CORRESPONDENCE.md) |
 
-Best classroom: the **Builders Brewery Sandbox** (SLua-enabled).  
+Best classroom: the **Builders Brewery Sandbox** (SLua-enabled).
 Best follow-up: class, study group, or Discord — not staring at an error alone.
 
 SLua is based on **Luau**. That's the language, not the feast.
@@ -39,7 +42,7 @@ SLua is based on **Luau**. That's the language, not the feast.
 ## What's inside
 
 - Leveled **LSL** examples (beginner → advanced)
-- **SLua Practice Toolbox** — tiny `.luau` scripts, a phrasebook, sandbox challenges
+- **SLua Practice Toolbox** — tiny `.luau` scripts, a phrasebook, side-by-side card, sandbox challenges
 - Everyday **recipe cards**
 - A Sublime Text package skeleton + a generator that pulls official Linden Lab language data
 - Docs written so limited-staff volunteers can keep this alive
@@ -59,8 +62,8 @@ SLua is based on **Luau**. That's the language, not the feast.
 
 ISC License. Example scripts are meant to be reused in free and commercial work.
 
-Second Life® and Linden Scripting Language are trademarks of Linden Research, Inc.  
+Second Life® and Linden Scripting Language are trademarks of Linden Research, Inc.
 Builders Brewery is not affiliated with or sponsored by Linden Research, Inc.
 
-**Builders Brewery** · Training content creators since 2008  
+**Builders Brewery** · Training content creators since 2008
 https://www.buildersbrewery.com
