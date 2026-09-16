@@ -23,6 +23,8 @@ This roadmap prioritizes **low maintenance** and **high teaching value**.
 ## Phase 3 — Strengthening
 - [x] SLua pocket map and LSL/SLua side-by-side card
 - [x] Extra SLua practice scripts for vectors and config tables
+- [x] Gotchas decoder and compiler/memory card
+- [x] Listen+hover and Linkset Data JSON practice scripts
 - [ ] Generate real Sublime completions + tooltips from the YAML
 - [ ] Optional: simple "What is new in LSL / SLua" page generated from definition dates
 - [ ] Community call for example-script contributions

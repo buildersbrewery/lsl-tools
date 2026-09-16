@@ -10,7 +10,7 @@ The GitHub notification API is still not available on this account connection (n
 
 What *does* exist is leftover conversation on the archived repos. A reply was attempted on PR 54 during this pass. GitHub refused it: archived repos are read-only. That is still the right tradeoff. Archiving stops people from installing dead packages and hoping they still grow.
 
-A welcome issue was opened on *this* repo so the Emacs work from PR 54 has a living door.
+Living door for that Emacs work: [issue #3](https://github.com/buildersbrewery/lsl-tools/issues/3).
 
 ## Archived repos
 
@@ -34,7 +34,7 @@ This package repo is archived. Current starter files live in https://github.com/
 
 ## Active repo health (this one)
 
-- Open issues: see the Emacs welcome issue if it is still open
+- Open issues: [#3 Emacs welcome mat](https://github.com/buildersbrewery/lsl-tools/issues/3)
 - Open pull requests: 0 at last check
 - Generator against current official YAML: still a Phase 2 leftover
 - Official upstream still publishes both `lsl_definitions.yaml` and `slua_definitions.yaml`
