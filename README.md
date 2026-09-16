@@ -1,72 +1,47 @@
 # Builders Brewery LSL Tools
 
-Free scripting tools for Second Life.
-Built by **Builders Brewery** — a not-for-profit that has been helping creators learn, mess up safely, and try again since 2008.
+Free scripting practice for Second Life.
+Built by **Builders Brewery** — classes since 2008, still free, still a little messy in the best way.
 
-This is a restart of our old GitHub work. The earlier repos are archived, with thanks to the people who built them.
+This is extra practice. Live class packets stay with the teachers.
 
-Come sit at the bench. Bring a script. Pineapples optional.
+## Do this first
 
----
+1. Rez a box in the **Builders Brewery Sandbox**.
+2. Pick one file. One idea. Copy it in. Save.
+3. Change one line. See what happens.
+4. Bring the weird part to class, study group, or Discord.
 
-## Start here
-
-| If you want to... | Go here |
+| I want to… | Open this |
 |---|---|
-| Learn LSL by poking at small examples | [`examples/beginner/`](examples/beginner/) |
-| Practice SLua between classes | [`examples/slua/`](examples/slua/) |
-| See LSL and SLua on one page | [`examples/slua/LSL_SLUA_SIDE_BY_SIDE.md`](examples/slua/LSL_SLUA_SIDE_BY_SIDE.md) |
-| Decode a cranky viewer error | [`docs/SLUA_GOTCHAS.md`](docs/SLUA_GOTCHAS.md) |
-| Pick a compiler button / think about memory | [`docs/COMPILER_AND_MEMORY_CARD.md`](docs/COMPILER_AND_MEMORY_CARD.md) |
-| Get the picture with charts | [`docs/SLUA_POCKET_MAP.md`](docs/SLUA_POCKET_MAP.md) |
-| Copy a tiny everyday recipe (door, etc.) | [`tools/recipes/`](tools/recipes/) |
-| Understand how this sits next to live classes | [`docs/COMPLEMENTARY_TO_CLASSES.md`](docs/COMPLEMENTARY_TO_CLASSES.md) |
-| Just get oriented | [`docs/QUICK_START.md`](docs/QUICK_START.md) |
-| See leftover mail on the old repos | [`docs/CORRESPONDENCE.md`](docs/CORRESPONDENCE.md) |
+| Learn LSL from zero | [`examples/beginner/01_hello_touch.lsl`](examples/beginner/01_hello_touch.lsl) |
+| Practice SLua | [`examples/slua/01_hello_touch.luau`](examples/slua/01_hello_touch.luau) |
+| See the same job in both languages | [`examples/slua/LSL_SLUA_SIDE_BY_SIDE.md`](examples/slua/LSL_SLUA_SIDE_BY_SIDE.md) |
+| Copy a door, light, gift, or anti-spam click | [`tools/recipes/`](tools/recipes/) |
+| Fix a save error | [`docs/SLUA_GOTCHAS.md`](docs/SLUA_GOTCHAS.md) |
+| Understand the compiler dropdown | [`docs/COMPILER_AND_MEMORY_CARD.md`](docs/COMPILER_AND_MEMORY_CARD.md) |
 
-Best classroom: the **Builders Brewery Sandbox** (SLua-enabled).
-Best follow-up: class, study group, or Discord — not staring at an error alone.
+Compiler reminder: if you typed `ll.Say` and `LLEvents`, the dropdown must say **Lua**. If you typed `llSay` and `default { }`, pick an **LSL:** option.
 
-SLua is based on **Luau**. That's the language, not the feast.
+## What is in the box
 
----
+- Leveled LSL examples (beginner → intermediate → advanced)
+- SLua practice scripts and a short phrasebook
+- Everyday recipe cards
+- A generator that reads Linden Lab's official definitions (we do not hand-edit giant keyword lists)
 
-## Who this is for
+Official language data: [secondlife/lsl-definitions](https://github.com/secondlife/lsl-definitions)  
+Official VS Code plugin: [secondlife/sl-vscode-plugin](https://github.com/secondlife/sl-vscode-plugin)
 
-- Beginners who want one clear idea per script
-- Intermediate folks wiring dialogs, listeners, Linkset Data, HTTP
-- Advanced tinkerers who need a starting point, not a novel
-- Teachers who want a public practice bench that does **not** steal their class packets
-- Curious people who are not in a class right now and still want to learn
-
----
-
-## What's inside
-
-- Leveled **LSL** examples (beginner → advanced)
-- **SLua Practice Toolbox** — tiny `.luau` scripts, a phrasebook, side-by-side card, sandbox challenges
-- Everyday **recipe cards** (LSL and a SLua door twin)
-- Gotchas card and compiler/memory chart
-- A Sublime Text package skeleton + a generator that pulls official Linden Lab language data
-- Docs written so limited-staff volunteers can keep this alive
-
----
+SLua is based on **Luau**. That is the language, not the feast.
 
 ## House rules
 
-1. Official Linden Lab docs win if something here disagrees.
+1. Official Linden Lab docs win if we disagree.
 2. Clarity beats cleverness.
-3. Teacher-owned class materials stay with the teachers. Topics are open.
-4. This is a community workbench, not an official Linden Lab product.
+3. Teacher materials stay with the teachers. Topics are open.
+4. This is not an official Linden Lab product.
 
----
+ISC License. Example scripts are meant to be reused.
 
-## License
-
-ISC License. Example scripts are meant to be reused in free and commercial work.
-
-Second Life® and Linden Scripting Language are trademarks of Linden Research, Inc.
-Builders Brewery is not affiliated with or sponsored by Linden Research, Inc.
-
-**Builders Brewery** · Training content creators since 2008
-https://www.buildersbrewery.com
+**Builders Brewery** · https://www.buildersbrewery.com
