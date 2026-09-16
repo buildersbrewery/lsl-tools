@@ -10,10 +10,11 @@ That's the language, not the feast. Bring scripts, not pineapples.
 
 ## How we use this toolbox
 
-1. Rez it in the **Builders Brewery Sandbox** (SLua-enabled).
-2. Play with it. Break it. Change one thing and see what happens.
-3. Bring questions to class, study group, Discord, or group chat.
-4. Repeat. That is how it becomes easy.
+1. Skim the [Pocket Map](../../docs/SLUA_POCKET_MAP.md) if the compiler dropdown still looks like four flavors of confusion.
+2. Rez a script in the **Builders Brewery Sandbox** (SLua-enabled).
+3. Play with it. Break it. Change one thing and see what happens.
+4. Bring questions to class, study group, Discord, or group chat.
+5. Repeat. That is how it becomes easy.
 
 ## Practice scripts
 
@@ -31,11 +32,15 @@ That's the language, not the feast. Bring scripts, not pineapples.
 | `10_sandbox_reminder.luau` | The BB practice loop |
 | `11_metatable_counter.luau` | Tiny metatable / callable-table demo |
 | `12_two_timers.luau` | More than one timer at once |
+| `13_vector_nudge.luau` | `vector()` instead of angle brackets |
+| `14_config_table.luau` | One table as the settings card |
 
 ## Phrasebook and challenges
 
+- `LSL_SLUA_SIDE_BY_SIDE.md` — same job, two dialects
 - `PHRASEBOOK_LSL_TO_SLUA.md` — "I used to write it this way in LSL..."
 - `SANDBOX_CHALLENGES.md` — little missions for the BB Sandbox
+- `../../docs/SLUA_POCKET_MAP.md` — charts for the compiler buttons, types, and practice path
 
 ## If a script complains
 
