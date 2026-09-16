@@ -6,6 +6,7 @@
 - [For Teachers and Students](FOR_TEACHERS_AND_STUDENTS.md)
 - [Complementary to Classes](COMPLEMENTARY_TO_CLASSES.md)
 - [GitHub for SL Creators](GITHUB_FOR_SL_CREATORS.md)
+- [SLua Pocket Map](SLUA_POCKET_MAP.md)
 
 ## Learning priorities
 
@@ -18,6 +19,7 @@
 - [Keeping Definitions Current](keeping-current.md)
 - [Maintenance Guide](../MAINTENANCE.md)
 - [AI Preparation](AI_PREPARATION.md)
+- [Correspondence log](CORRESPONDENCE.md)
 
 ## Philosophy
 
