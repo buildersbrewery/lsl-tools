@@ -46,7 +46,9 @@ These materials sit **beside** Builders Brewery live classes. They do not replac
 
 See the [`slua/`](slua/) folder.
 
-Twelve tiny practice scripts, a phrasebook, and sandbox challenges.  
+Tiny practice scripts, a phrasebook, a side-by-side card, and sandbox challenges.
+Start with the [SLua Pocket Map](../docs/SLUA_POCKET_MAP.md) if the compiler dropdown still looks like alphabet soup.
+
 Rez them in the **Builders Brewery Sandbox**. Then bring the weird bits back to class.
 
 Not a substitute for the SLua series taught at Builders Brewery.
